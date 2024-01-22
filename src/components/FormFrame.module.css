@@ -1,0 +1,474 @@
+.contactezNous {
+  margin: 0;
+  width: 663px;
+  height: 81px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.conceptionWebFrame {
+  height: 5px;
+  width: 155px;
+  position: relative;
+  border-top: 5px solid var(--violet-2);
+  box-sizing: border-box;
+}
+.avezVousUnProjet {
+  margin: 0;
+  height: 76px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.communicationDigitalFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+  max-width: 100%;
+}
+.lineFrame,
+.sendButtonFrame {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.sendButtonFrame {
+  flex-direction: row;
+  justify-content: flex-end;
+  color: var(--violet-2);
+}
+.lineFrame {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-15xl);
+}
+.quePouvonsNousFaire {
+  margin: 0;
+  width: 554px;
+  height: 43px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.brandingBox {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--violet-1);
+}
+.branding1 {
+  position: relative;
+  font-size: var(--h3-size);
+  font-weight: 500;
+  font-family: var(--h2);
+  color: var(--white);
+  text-align: left;
+  z-index: 1;
+}
+.branding {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-58xl) var(--padding-lg)
+    var(--padding-50xl);
+  background-color: transparent;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.nomEtPrnom {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.notProvided2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  min-width: 137px;
+}
+.notProvided3 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--violet-1);
+}
+.communicationDigitale,
+.communicationDigitale1 {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.communicationDigitale1 {
+  height: 20px;
+  font-size: var(--h3-size);
+  font-weight: 500;
+  font-family: var(--h2);
+  color: var(--white);
+  text-align: left;
+  z-index: 1;
+}
+.communicationDigitale {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid) var(--padding-2xl) var(--padding-lg)
+    var(--padding-xl);
+  background-color: transparent;
+  flex-direction: row;
+  justify-content: center;
+  white-space: nowrap;
+}
+.conceptionWebChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--violet-1);
+}
+.conceptionWeb1 {
+  position: relative;
+  font-size: var(--h3-size);
+  font-weight: 500;
+  font-family: var(--h2);
+  color: var(--white);
+  text-align: left;
+  z-index: 1;
+}
+.conceptionWeb,
+.notProvided1 {
+  display: flex;
+  flex-direction: row;
+}
+.conceptionWeb {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lgi) var(--padding-30xl) var(--padding-xl)
+    var(--padding-29xl);
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  white-space: nowrap;
+}
+.notProvided1 {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+}
+.notProvided4,
+.notProvided5 {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.notProvided5 {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--black);
+}
+.notProvided4 {
+  align-self: stretch;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xl);
+}
+.adresseEMail {
+  margin: 0;
+  width: 149px;
+  height: 27px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.notProvided7 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--black);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.notProvided6 {
+  align-self: stretch;
+  height: 51px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.numroDeTlphone {
+  margin: 0;
+  width: 211px;
+  height: 27px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.notProvidedChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--black);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.notProvided8 {
+  align-self: stretch;
+  height: 51px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dtailsProjet {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.notProvided9,
+.notProvidedItem {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.notProvidedItem {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--black);
+}
+.notProvided9 {
+  align-self: stretch;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xl);
+}
+.envoyerChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--violet-1);
+}
+.envoyer1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--paragraphe);
+  color: var(--white);
+  text-align: left;
+}
+.envoyerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.vectorIcon {
+  height: 16.8px;
+  width: 19px;
+  position: relative;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.group {
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.envoyer,
+.group,
+.textFrame {
+  display: flex;
+  flex-direction: row;
+}
+.envoyer {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-6xl) var(--padding-xs)
+    var(--padding-5xl);
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.textFrame {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.notProvided {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+  font-size: var(--paragraphe-size);
+}
+.detailsProjectFrame,
+.footerFinalFrame,
+.notProvided {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.footerFinalFrame {
+  align-self: stretch;
+  gap: var(--gap-13xl);
+}
+.detailsProjectFrame {
+  flex: 1;
+  padding: 0 0 var(--padding-mid);
+  box-sizing: border-box;
+  min-width: 457px;
+}
+.footerFrameIcon {
+  width: 492px;
+  position: relative;
+  border-radius: var(--br-xs);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.formFrame,
+.nameAndEmailFrame {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.nameAndEmailFrame {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-98xl);
+  font-size: var(--font-size-13xl);
+  color: var(--black);
+  font-family: var(--paragraphe);
+}
+.formFrame {
+  width: 1352px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-46xl);
+  min-height: 947px;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--violet-1);
+  font-family: var(--h2);
+}
+@media screen and (max-width: 1125px) {
+  .communicationDigitalFrame {
+    flex-wrap: wrap;
+  }
+  .footerFrameIcon {
+    flex: 1;
+  }
+  .nameAndEmailFrame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .avezVousUnProjet,
+  .contactezNous {
+    font-size: var(--font-size-32xl);
+  }
+  .lineFrame {
+    gap: var(--gap-mid);
+  }
+  .quePouvonsNousFaire {
+    font-size: var(--font-size-7xl);
+  }
+  .notProvided1 {
+    flex-wrap: wrap;
+    gap: var(--gap-mid);
+  }
+  .footerFinalFrame {
+    gap: var(--gap-base);
+  }
+  .detailsProjectFrame {
+    min-width: 100%;
+  }
+  .nameAndEmailFrame {
+    gap: var(--gap-39xl);
+  }
+  .formFrame {
+    gap: var(--gap-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .avezVousUnProjet,
+  .contactezNous {
+    font-size: var(--font-size-19xl);
+  }
+  .quePouvonsNousFaire {
+    font-size: var(--font-size-lgi);
+  }
+  .nameAndEmailFrame {
+    gap: var(--gap-10xl);
+  }
+  .formFrame {
+    gap: var(--gap-base);
+  }
+}

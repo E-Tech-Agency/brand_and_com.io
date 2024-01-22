@@ -1,0 +1,65 @@
+.frameChild {
+  height: 180px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--gris);
+  display: none;
+  max-width: 100%;
+}
+.brandingIcon,
+.brandingIcon1,
+.brandingIcon10,
+.brandingIcon11,
+.brandingIcon12,
+.brandingIcon13,
+.brandingIcon2,
+.brandingIcon3,
+.brandingIcon4,
+.brandingIcon5,
+.brandingIcon6,
+.brandingIcon7,
+.brandingIcon8,
+.brandingIcon9 {
+  align-self: stretch;
+  width: 340px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  max-height: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 125px;
+  max-width: 100%;
+}
+.nosteam {
+  width: 1440px;
+  overflow-x: auto;
+  flex-shrink: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-18xl);
+}
+.component1,
+.nosteam,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.component1 {
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.rectangleParent {
+  background-color: var(--gris);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xl) 0 var(--padding-8xl);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 750px) {
+  .nosteam {
+    gap: var(--gap-lg);
+  }
+}

@@ -1,0 +1,414 @@
+.fond,
+.subtractIcon {
+  position: relative;
+  max-width: 100%;
+}
+.fond {
+  height: 563px;
+  width: 1440px;
+  background-color: var(--violet-1);
+  display: none;
+}
+.subtractIcon {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.pourquoichoisirnotreagence {
+  height: 413px;
+  width: 362px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+  min-width: 362px;
+  max-width: 100%;
+}
+.nosServices {
+  height: 29.8px;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.communicationdigitale {
+  height: 37.8px;
+  width: 38px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--white);
+  z-index: 1;
+}
+.conceptionWeb {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+  margin-left: -27px;
+}
+.branding {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 0;
+}
+.branding1 {
+  height: 27px;
+  position: relative;
+  font-size: var(--h2-size);
+  font-weight: 500;
+  font-family: var(--h2);
+  color: var(--white);
+  display: inline-block;
+  z-index: 1;
+}
+.nosengagements {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.dcouvrezLePouvoir,
+.faonnonsVotreIdentit {
+  margin: 0;
+}
+.faonnonsVotreIdentitContainer {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 281px;
+  max-width: 100%;
+  z-index: 1;
+}
+.brandingIcon {
+  width: 28.1px;
+  height: 10.5px;
+  position: relative;
+  z-index: 1;
+}
+.gopack,
+.packs {
+  display: flex;
+  justify-content: flex-start;
+}
+.gopack {
+  height: 14px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.packs {
+  width: 510px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-30xl);
+  max-width: 100%;
+}
+.brandingCommunicationdigitale,
+.notremission {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.brandingCommunicationdigitale {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: var(--paragraphe-size);
+  color: var(--white);
+}
+.notremission {
+  width: 556px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  flex-shrink: 0;
+}
+.quiSommesNous {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--white);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.frameVectorFacebook {
+  height: 37.8px;
+  width: 38px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--white);
+  z-index: 1;
+}
+.arrow {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+  margin-left: -27px;
+}
+.vectorFacebook {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi) 0 0;
+}
+.communicationDigitale {
+  height: 25.9px;
+  flex: 1;
+  position: relative;
+  font-size: var(--h2-size);
+  font-weight: 500;
+  font-family: var(--h2);
+  color: var(--white);
+  display: inline-block;
+  z-index: 1;
+}
+.suiveznous {
+  width: 315px;
+  height: 41px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.connectonsVotreMarque {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 281px;
+  max-width: 100%;
+  z-index: 1;
+}
+.comIcon {
+  width: 28.1px;
+  height: 10.5px;
+  position: relative;
+  z-index: 1;
+}
+.servicegroup {
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-sm);
+  box-sizing: border-box;
+}
+.connectonsVotreMarqueAuMonParent {
+  width: 518px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-38xl);
+  max-width: 100%;
+}
+.rectanglelogo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-15xl) 0 var(--padding-27xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: var(--paragraphe-size);
+  color: var(--white);
+}
+.quiSommesNous1 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--white);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.engagementstext {
+  height: 37.8px;
+  width: 38px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--white);
+}
+.brandingservicesframe {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  margin-left: -27px;
+}
+.missiontext {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi) 0 0;
+}
+.conceptionWeb1 {
+  height: 27.9px;
+  position: relative;
+  font-size: var(--h2-size);
+  font-weight: 500;
+  font-family: var(--h2);
+  color: var(--white);
+  display: inline-block;
+}
+.quisommesnousframe {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.optimisezVotrePrsence {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 281px;
+  max-width: 100%;
+}
+.webIcon {
+  height: 10.5px;
+  width: 28.1px;
+  position: relative;
+}
+.conceptionwebframe,
+.servicestext {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.servicestext {
+  width: 508px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-28xl);
+}
+.conceptionwebframe {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  font-size: var(--paragraphe-size);
+  color: var(--white);
+}
+.quisommesnousframeParent {
+  width: 554px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  opacity: 0.9;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.nosclients,
+.ourteam,
+.quisommesnousframeParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.ourteam {
+  width: 598px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.nosclients {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: var(--font-size-smi);
+  color: var(--violet-1);
+  font-family: var(--paragraphe);
+}
+.fondParent,
+.prisedezRendezvous {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.prisedezRendezvous {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-22xl);
+  min-width: 487px;
+  flex-shrink: 0;
+}
+.fondParent {
+  width: 1441px;
+  background-color: var(--violet-1);
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-20xl) var(--padding-60xl) var(--padding-25xl)
+    var(--padding-61xl);
+  box-sizing: border-box;
+  gap: var(--gap-151xl);
+  text-align: left;
+  font-size: var(--h1-size);
+  color: var(--white);
+  font-family: var(--h2);
+}
+@media screen and (max-width: 1200px) {
+  .subtractIcon {
+    align-self: stretch;
+    width: auto;
+  }
+  .pourquoichoisirnotreagence {
+    flex: 1;
+  }
+  .fondParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .pourquoichoisirnotreagence {
+    min-width: 100%;
+  }
+  .packs {
+    flex-wrap: wrap;
+    gap: var(--gap-5xl);
+  }
+  .connectonsVotreMarqueAuMonParent {
+    flex-wrap: wrap;
+    gap: var(--gap-9xl);
+  }
+  .rectanglelogo {
+    padding-left: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+  .servicestext {
+    flex-wrap: wrap;
+    gap: var(--gap-4xl);
+  }
+  .prisedezRendezvous {
+    gap: var(--gap-xl);
+    min-width: 100%;
+  }
+  .fondParent {
+    gap: var(--gap-66xl);
+    padding: var(--padding-6xl) var(--padding-20xl) var(--padding-10xl)
+      var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .nosServices {
+    font-size: var(--font-size-5xl);
+  }
+  .fondParent {
+    gap: var(--gap-23xl);
+  }
+}

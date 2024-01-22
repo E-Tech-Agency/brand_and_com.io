@@ -1,0 +1,110 @@
+.besoinDeNouvelles,
+.familiarisezVousAvecNos {
+  margin: 0;
+}
+.besoinDeNouvellesContainer {
+  align-self: stretch;
+  height: 167px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.homePage {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--violet-1);
+}
+.consultezNosServices1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.consultezNosServices {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-smi) 0 var(--padding-xs) var(--padding-5xs);
+  position: relative;
+  white-space: nowrap;
+}
+.addressVector,
+.phoneNumberFrame {
+  display: flex;
+  justify-content: flex-start;
+}
+.phoneNumberFrame {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+  text-align: left;
+  font-size: var(--paragraphe-size);
+  color: var(--gris);
+  font-family: var(--paragraphe);
+}
+.addressVector {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-6xl);
+}
+.logoSiteWebBc,
+.pBackFrontFrame {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.logoSiteWebBc {
+  width: 322px;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 277px;
+  text-align: center;
+  font-size: var(--h1-size);
+  color: var(--violet-2);
+  font-family: var(--h2);
+}
+.pBackFrontFrame {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-58xl);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--white);
+  font-family: var(--paragraphe);
+}
+@media screen and (max-width: 1325px) {
+  .logoSiteWebBc {
+    min-height: auto;
+  }
+  .pBackFrontFrame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .pBackFrontFrame {
+    gap: var(--gap-19xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .besoinDeNouvellesContainer {
+    font-size: var(--font-size-5xl);
+  }
+  .pBackFrontFrame {
+    gap: var(--gap-lgi);
+  }
+}

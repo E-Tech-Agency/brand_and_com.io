@@ -50,7 +50,7 @@
   justify-content: center;
   padding: var(--padding-base);
 }
-.footerIcon {
+.navItemsChild {
   align-self: stretch;
   width: 138px;
   position: relative;
@@ -116,13 +116,13 @@
 }
 .navItems,
 .searchBar2 {
-  align-self: stretch;
   display: flex;
   flex-direction: row;
   justify-content: center;
   box-sizing: border-box;
 }
 .searchBar2 {
+  align-self: stretch;
   width: 57px;
   border-radius: var(--br-3xs);
   background-color: var(--violet-1);
@@ -130,21 +130,24 @@
   padding: var(--padding-3xs);
 }
 .navItems {
+  width: 1446px;
   height: 75px;
   background-color: var(--white);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
   align-items: flex-start;
-  padding: var(--padding-5xs) var(--padding-xl);
+  padding: var(--padding-5xs) var(--padding-xl) var(--padding-5xs)
+    var(--padding-2xl);
   gap: var(--gap-3xs);
   top: 0;
   z-index: 99;
   position: sticky;
+  max-width: 100%;
   text-align: left;
   font-size: var(--font-size-xl);
   color: var(--violet-1);
   font-family: var(--h2);
 }
-@media screen and (max-width: 1125px) {
+@media screen and (max-width: 1050px) {
   .navItems {
     display: none;
   }
