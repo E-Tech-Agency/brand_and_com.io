@@ -1,0 +1,245 @@
+.frameChild {
+  height: 178px;
+  width: 365px;
+  position: relative;
+  border-radius: var(--br-5xl);
+  background: linear-gradient(
+    129.35deg,
+    rgba(0, 0, 0, 0.4),
+    rgba(255, 255, 255, 0.1)
+  );
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(40px);
+  border: 2px solid var(--color-gray);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.infusantChaqueProjet {
+  margin: 0;
+  height: 83px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.rectangleParent {
+  width: 365px;
+  border-radius: var(--br-5xl);
+  background: linear-gradient(
+    129.35deg,
+    rgba(0, 0, 0, 0.4),
+    rgba(255, 255, 255, 0.1)
+  );
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(40px);
+  border: 2px solid var(--color-gray);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-29xl) var(--padding-4xl) var(--padding-28xl)
+    var(--padding-3xl);
+  max-width: 100%;
+}
+.notreMission {
+  width: 267px;
+  height: 49px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.oChaquePixel,
+.transformerDesConcepts {
+  margin: 0;
+}
+.transformerDesConceptsContainer {
+  margin: 0;
+  align-self: stretch;
+  height: 117px;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 400;
+  font-family: var(--paragraphe);
+  color: var(--color-black);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.brandingCommunicationDigital,
+.quiSommesNous {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.brandingCommunicationDigital {
+  gap: var(--gap-25xl);
+  font-size: var(--h1-size);
+  color: var(--color-darkorchid);
+  font-family: var(--h2);
+}
+.quiSommesNous {
+  gap: var(--gap-55xl);
+  max-width: 100%;
+}
+.nosEngagements {
+  width: 331px;
+  height: 49px;
+  position: relative;
+  font-size: var(--h1-size);
+  font-weight: 500;
+  font-family: var(--h2);
+  color: var(--color-darkorchid);
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.frameItem,
+.priseDeRendezVous {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.priseDeRendezVous {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-118xl);
+  min-width: 548px;
+}
+.frameItem {
+  height: 178px;
+  width: 365px;
+  position: relative;
+  border-radius: var(--br-5xl);
+  background: linear-gradient(
+    129.35deg,
+    rgba(0, 0, 0, 0.4),
+    rgba(255, 255, 255, 0.1)
+  );
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(40px);
+  border: 2px solid var(--color-gray);
+  display: none;
+}
+.onNeFait,
+.rectangleGroup {
+  display: flex;
+  align-items: center;
+}
+.onNeFait {
+  margin: 0;
+  height: 141px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.rectangleGroup {
+  align-self: stretch;
+  border-radius: var(--br-5xl);
+  background: linear-gradient(
+    129.35deg,
+    rgba(0, 0, 0, 0.4),
+    rgba(255, 255, 255, 0.1)
+  );
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(40px);
+  border: 2px solid var(--color-gray);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-lgi) var(--padding-3xl) var(--padding-lg)
+    var(--padding-4xl);
+  max-width: 100%;
+}
+.contactInfoChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.contactInfo,
+.testimonialsFrame {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contactInfo {
+  height: 527px;
+  width: 369px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-55xl);
+  min-width: 369px;
+}
+.testimonialsFrame {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-82xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--paragraphe);
+}
+@media screen and (max-width: 1125px) {
+  .quiSommesNous {
+    gap: var(--gap-18xl);
+  }
+  .priseDeRendezVous {
+    gap: var(--gap-49xl);
+  }
+  .contactInfo {
+    flex: 1;
+  }
+  .testimonialsFrame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .priseDeRendezVous {
+    min-width: 100%;
+  }
+  .testimonialsFrame {
+    gap: var(--gap-31xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .notreMission {
+    font-size: var(--font-size-5xl);
+  }
+  .brandingCommunicationDigital {
+    gap: var(--gap-3xl);
+  }
+  .quiSommesNous {
+    gap: var(--gap-lg);
+  }
+  .nosEngagements {
+    font-size: var(--font-size-5xl);
+  }
+  .priseDeRendezVous {
+    gap: var(--gap-15xl);
+  }
+  .contactInfo {
+    gap: var(--gap-18xl);
+    min-width: 100%;
+  }
+  .testimonialsFrame {
+    gap: var(--gap-6xl);
+  }
+}

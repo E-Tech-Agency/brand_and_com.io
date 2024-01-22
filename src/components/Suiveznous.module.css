@@ -1,0 +1,183 @@
+.facebookVectorChild {
+  width: 23px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+}
+.frameChild {
+  height: 178px;
+  width: 365px;
+  position: relative;
+  border-radius: var(--br-5xl);
+  background: linear-gradient(
+    129.35deg,
+    rgba(0, 0, 0, 0.4),
+    rgba(255, 255, 255, 0.1)
+  );
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(40px);
+  border: 2px solid var(--color-gray);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.hafa {
+  color: var(--color-darkorchid);
+}
+.aaslmaJeSuisContainer {
+  margin: 0;
+  height: 85px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  font-family: inherit;
+}
+.facebookVector,
+.rectangleParent {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-5xl);
+  background: linear-gradient(
+    129.35deg,
+    rgba(0, 0, 0, 0.4),
+    rgba(255, 255, 255, 0.1)
+  );
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(40px);
+  border: 2px solid var(--color-gray);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-28xl) var(--padding-4xl) var(--padding-27xl)
+    var(--padding-3xl);
+}
+.facebookVector {
+  height: 481px;
+  width: 365px;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: var(--color-black);
+}
+.deBrand,
+.lesBrandistas {
+  margin: 0;
+}
+.lesBrandistasDeContainer {
+  align-self: stretch;
+  height: 86px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.contact {
+  width: 356px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-91xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--h1-size);
+  font-family: var(--h2);
+}
+.facebookVectorItem {
+  width: 23px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  z-index: 2;
+}
+.frameItem {
+  height: 178px;
+  width: 365px;
+  position: relative;
+  border-radius: var(--br-5xl);
+  background: linear-gradient(
+    129.35deg,
+    rgba(0, 0, 0, 0.4),
+    rgba(255, 255, 255, 0.1)
+  );
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(40px);
+  border: 2px solid var(--color-gray);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.laBrandistaDe {
+  font-size: var(--paragraphe-size);
+  color: var(--color-black);
+}
+.amalLaBrandistaContainer {
+  height: 82px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.facebookVector1,
+.rectangleGroup {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.rectangleGroup {
+  align-self: stretch;
+  border-radius: var(--br-5xl);
+  background: linear-gradient(
+    129.35deg,
+    rgba(0, 0, 0, 0.4),
+    rgba(255, 255, 255, 0.1)
+  );
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(40px);
+  border: 2px solid var(--color-gray);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-29xl) var(--padding-3xl) var(--padding-29xl)
+    var(--padding-4xl);
+}
+.facebookVector1 {
+  height: 481px;
+  width: 365px;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: var(--font-size-base);
+}
+.suiveznous {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--paragraphe-size);
+  color: var(--color-darkorchid);
+  font-family: var(--paragraphe);
+}
+@media screen and (max-width: 1325px) {
+  .suiveznous {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .lesBrandistasDeContainer {
+    font-size: var(--font-size-5xl);
+  }
+}

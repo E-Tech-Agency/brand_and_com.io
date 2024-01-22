@@ -1,0 +1,664 @@
+.frameChild,
+.frameInner,
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-blueviolet-200);
+  width: 100%;
+  height: 100%;
+}
+.frameInner,
+.frameItem {
+  background-color: var(--color-blueviolet-100);
+  z-index: 1;
+}
+.frameInner {
+  background-color: var(--color-darkorchid);
+  z-index: 2;
+}
+.maskGroupIcon {
+  position: absolute;
+  top: 166px;
+  left: 140px;
+  width: 341.9px;
+  height: 341.9px;
+  object-fit: contain;
+  z-index: 3;
+}
+.ellipseParent {
+  height: 612px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.engagement {
+  position: absolute;
+  top: 0;
+  left: 405px;
+  width: 612px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.connectorLine,
+.connectorLine1 {
+  border: 2px solid var(--color-black);
+  background-color: transparent;
+  height: 190px;
+  width: 204px;
+  outline: 0;
+  position: absolute;
+  top: 118px;
+  left: 199px;
+  border-radius: var(--br-5xl);
+  box-sizing: border-box;
+}
+.connectorLine1 {
+  height: 191px;
+  width: 215px;
+  top: 117px;
+  left: 1021px;
+}
+.brandClients {
+  margin-block-start: 0;
+  margin-block-end: 5px;
+  font-weight: 500;
+}
+.nousSommesL {
+  margin: 0;
+  font-family: var(--paragraphe);
+}
+.brandClientsNousContainer1 {
+  width: 100%;
+}
+.brandClientsNousContainer {
+  position: absolute;
+  top: 17px;
+  left: 1017px;
+  display: flex;
+  align-items: center;
+  width: 359px;
+  height: 80px;
+  z-index: 4;
+}
+.teamCollab {
+  margin-block-start: 0;
+  margin-block-end: 5px;
+  font-weight: 500;
+}
+.nousSommesIci {
+  margin: 0;
+  font-weight: 500;
+  font-family: var(--paragraphe);
+}
+.teamCollabNousContainer1 {
+  width: 100%;
+}
+.teamCollabNousContainer {
+  position: absolute;
+  top: 9px;
+  left: 66px;
+  display: flex;
+  align-items: center;
+  width: 339px;
+  height: 99px;
+  z-index: 4;
+}
+.footerFinalInner,
+.instanceChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.instanceChild {
+  background-color: var(--color-black);
+}
+.footerFinalInner {
+  margin: 0 !important;
+}
+.logoSiteWebBc11 {
+  width: 212px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+}
+.vectorIcon {
+  height: 28px;
+  width: 22px;
+  position: relative;
+}
+.avenueHdiNouira,
+.bureauN1C {
+  margin: 0;
+}
+.avenueHdiNouiraContainer {
+  position: relative;
+}
+.adresse {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.contactbmgtnIcon {
+  align-self: stretch;
+  width: 30px;
+  position: relative;
+  max-height: 100%;
+  min-height: 21px;
+}
+.blankLine,
+.contactbmgtn1 {
+  margin: 0;
+}
+.contactbmgtn {
+  flex: 1;
+  position: relative;
+  white-space: nowrap;
+}
+.eMail {
+  width: 171px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.tlphoneChild {
+  height: 27px;
+  width: 27px;
+  position: relative;
+}
+.blankLine1,
+.p {
+  margin: 0;
+}
+.emptySpace {
+  flex: 1;
+  position: relative;
+}
+.facebookIcon,
+.tlphone {
+  display: flex;
+  justify-content: flex-start;
+}
+.tlphone {
+  width: 124px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-smi);
+}
+.facebookIcon {
+  height: 208px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+  min-width: 334px;
+  max-width: 100%;
+  z-index: 1;
+}
+.acceuil {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.brandConcept {
+  height: 26px;
+  display: inline-block;
+}
+.brandConcept,
+.contact,
+.digiNews,
+.portfolio,
+.servicesEtPacks {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.footerMain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-17xl);
+}
+.nosServices {
+  position: relative;
+}
+.whyChooseUsTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 var(--padding-9xs);
+}
+.nosClients {
+  position: relative;
+}
+.whyChooseUsTitle1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) 0 var(--padding-9xs);
+}
+.pourquoiChoisirNotre {
+  width: 78px;
+  position: relative;
+  display: inline-block;
+}
+.ourTeam {
+  flex: 1;
+  position: relative;
+}
+.whyChooseUsTitle2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) 0 var(--padding-9xs);
+}
+.priseDeRendezVous,
+.tmoignageClients {
+  width: 80px;
+  position: relative;
+  display: inline-block;
+}
+.ourServicesSubheading {
+  width: 84px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.quiSommesNous {
+  height: 21px;
+  flex-shrink: 0;
+}
+.nosEngagements,
+.notreMission,
+.quiSommesNous {
+  width: 113px;
+  position: relative;
+  display: inline-block;
+}
+.notreMission {
+  height: 19px;
+  flex-shrink: 0;
+}
+.nosEngagements {
+  flex: 1;
+}
+.brandingCommunication,
+.missionStatement {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.brandingCommunication {
+  align-self: stretch;
+  height: 74px;
+  padding: var(--padding-9xs) var(--padding-6xs) var(--padding-11xs);
+  gap: var(--gap-9xs);
+}
+.missionStatement {
+  flex: 1;
+  padding: 0 var(--padding-10xs) 0 0;
+  min-width: 112px;
+}
+.branding {
+  flex: 1;
+  position: relative;
+}
+.helloPackName {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+}
+.communicationDigitale {
+  flex: 1;
+  position: relative;
+}
+.helloPackName1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+}
+.conceptionWeb {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.helloPackName2 {
+  align-self: stretch;
+  height: 19px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.packsSubheading,
+.webDesignSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.packsSubheading {
+  align-self: stretch;
+  align-items: flex-end;
+  padding: var(--padding-9xs) 0 var(--padding-11xs) var(--padding-5xs);
+  gap: var(--gap-9xs);
+}
+.webDesignSection {
+  width: 121px;
+  align-items: flex-start;
+  padding: 0 var(--padding-sm) 0 0;
+  box-sizing: border-box;
+}
+.services {
+  align-self: stretch;
+  width: 72px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.facebookVector {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+}
+.branding1 {
+  align-self: stretch;
+  width: 68px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.facebookVector1 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+}
+.communicationDigitale1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  flex-shrink: 0;
+}
+.facebookVector2 {
+  width: 152px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.conceptionWeb1 {
+  width: 101px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.facebookVector3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+}
+.packs {
+  flex: 1;
+  position: relative;
+}
+.facebookVector4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-17xl) 0 var(--padding-4xs);
+}
+.helloPack {
+  flex: 1;
+  position: relative;
+}
+.facebookVector5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xl) 0 var(--padding-4xs);
+}
+.goPack {
+  flex: 1;
+  position: relative;
+}
+.facebookVector6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xl) 0 var(--padding-4xs);
+}
+.extraPack {
+  flex: 1;
+  position: relative;
+}
+.facebookVector7 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-7xl) 0 var(--padding-4xs);
+}
+.extraPackName,
+.facebookVector7,
+.menu {
+  display: flex;
+  justify-content: flex-start;
+}
+.extraPackName {
+  height: 172px;
+  width: 161px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-9xs) 0 var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.menu {
+  width: 620px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-8xl);
+  max-width: 100%;
+}
+.suivezNous {
+  margin: 0;
+  height: 23px;
+  position: relative;
+  font-size: inherit;
+  line-height: 114.29%;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+}
+.homePageSubtitle {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  margin-left: -88px;
+}
+.menuSectionTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.emailIcon {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  min-height: 25px;
+}
+.facebookIcon1,
+.facebookLinkIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.facebookIcon1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.contactInfoSection,
+.facebookVectorIcon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.facebookVectorIcon {
+  flex-direction: row;
+  padding: 0 var(--padding-13xl) 0 0;
+  position: relative;
+  gap: var(--gap-5xs);
+}
+.contactInfoSection {
+  width: 89px;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--paragraphe-size);
+}
+.testimonials {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: var(--font-size-2xs);
+  font-family: var(--paragraphe);
+}
+.footerMainParent {
+  width: 907px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  min-width: 907px;
+  max-width: 100%;
+  z-index: 1;
+  font-size: var(--h2-size);
+  font-family: var(--h2);
+}
+.acceuilFrame,
+.footerFinal {
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+}
+.footerFinal {
+  position: absolute;
+  top: 378px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-5xl) var(--padding-17xl) var(--padding-4xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  z-index: 4;
+  color: var(--color-white);
+  font-family: var(--paragraphe);
+}
+.acceuilFrame {
+  align-self: stretch;
+  height: 635px;
+  position: relative;
+  color: var(--color-black);
+  font-family: var(--h2);
+}
+@media screen and (max-width: 1325px) {
+  .facebookIcon,
+  .footerMainParent {
+    flex: 1;
+  }
+  .footerFinal {
+    flex-wrap: wrap;
+  }
+  .acceuilFrame {
+    height: auto;
+    min-height: 635;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .footerMain,
+  .testimonials {
+    flex-wrap: wrap;
+  }
+  .footerMainParent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .menu {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .footerMain {
+    gap: var(--gap-lg);
+  }
+}
