@@ -1,0 +1,225 @@
+.artfactIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.conceptionLogoEt {
+  position: relative;
+  font-weight: 500;
+}
+.frameBrandAndCom {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.talentLinkIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.conceptionLogoEt1 {
+  position: relative;
+  font-weight: 500;
+}
+.frameBrandAndCom1,
+.groupAcceuilFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameBrandAndCom1 {
+  align-self: stretch;
+  flex: 1;
+  gap: var(--gap-3xl);
+}
+.groupAcceuilFrame {
+  height: 1057px;
+  width: 459px;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  max-width: calc(100% - 933px);
+}
+.besoinDeNouvelles,
+.familiarisezVousAvecNos {
+  margin: 0;
+}
+.besoinDeNouvellesContainer {
+  align-self: stretch;
+  height: 167px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.servicesBrandingCommunicatio {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--violet-1);
+}
+.consultezNosServices1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.consultezNosServices {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-smi) 0 var(--padding-xs) var(--padding-5xs);
+  position: relative;
+  white-space: nowrap;
+}
+.frameOurEngagements {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+  text-align: left;
+  font-size: var(--paragraphe-size);
+  color: var(--gris);
+  font-family: var(--paragraphe);
+}
+.frameOurTeam,
+.framePourquoiChoisirNous {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.framePourquoiChoisirNous {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-6xl);
+}
+.frameOurTeam {
+  flex: 1;
+  align-items: flex-start;
+  min-width: 209px;
+  min-height: 280px;
+  max-width: 100%;
+}
+.brandAndCom {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rebranding {
+  width: 246px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.frameNosMissionNosEngageme {
+  height: 514px;
+  width: 458px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+  min-width: 458px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  font-family: var(--paragraphe);
+}
+.menuFrame,
+.telephoneFrame {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.menuFrame {
+  flex: 1;
+  align-items: center;
+  gap: var(--gap-58xl);
+  max-width: calc(100% - 535px);
+  text-align: center;
+  font-size: var(--h1-size);
+  font-family: var(--h2);
+}
+.telephoneFrame {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-57xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--violet-2);
+  font-family: var(--paragraphe);
+}
+@media screen and (max-width: 1325px) {
+  .groupAcceuilFrame {
+    max-width: 100%;
+  }
+  .menuFrame {
+    display: none;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .groupAcceuilFrame {
+    display: none;
+  }
+  .menuFrame {
+    gap: var(--gap-19xl);
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .frameOurTeam {
+    min-height: auto;
+  }
+  .frameNosMissionNosEngageme {
+    display: none;
+    flex: 1;
+    min-width: 100%;
+  }
+  .menuFrame {
+    flex-wrap: wrap;
+  }
+  .telephoneFrame {
+    gap: var(--gap-19xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .groupAcceuilFrame {
+    display: none;
+    gap: var(--gap-base);
+  }
+  .besoinDeNouvellesContainer {
+    font-size: var(--font-size-5xl);
+  }
+  .menuFrame,
+  .telephoneFrame {
+    gap: var(--gap-lgi);
+  }
+}

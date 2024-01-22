@@ -1,0 +1,375 @@
+.pourquoiChoisirNotre {
+  height: 27px;
+  width: 388px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.suiveznousline {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.chezNousChaque {
+  align-self: stretch;
+  height: 139px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--paragraphe);
+  color: var(--black);
+  white-space: pre-wrap;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.avenueHEDINOIRAtext {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -0.2px;
+  bottom: 0;
+  left: 0.2px;
+  border-radius: var(--br-xs);
+  background-color: var(--violet-1);
+}
+.contactezNous1 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--paragraphe);
+  color: var(--gris);
+  text-align: left;
+}
+.contactezNous,
+.contactezNousWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.contactezNousWrapper {
+  z-index: 1;
+}
+.contactezNous {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-mini) var(--padding-smi)
+    var(--padding-mid);
+  background-color: transparent;
+  position: relative;
+}
+.extrapackframe {
+  width: 528px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  min-width: 528px;
+  max-width: 100%;
+}
+.tmoignageclientsframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--white);
+  width: 100%;
+  height: 100%;
+}
+.prisederendezvoustext {
+  position: absolute;
+  top: 11px;
+  left: 11px;
+  font-weight: 500;
+  display: inline-block;
+  width: 12px;
+  height: 15px;
+  z-index: 1;
+}
+.tmoignageclientsframeParent {
+  height: 38px;
+  width: 38px;
+  position: relative;
+}
+.agilit1 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.nousSommesAgiles {
+  flex: 1;
+  position: relative;
+}
+.agilit,
+.footer,
+.text {
+  display: flex;
+  justify-content: flex-start;
+}
+.footer {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  font-size: var(--font-size-smi);
+  color: var(--black);
+  font-family: var(--paragraphe);
+}
+.agilit,
+.text {
+  flex: 1;
+}
+.text {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-4xs);
+  min-width: 158px;
+  font-size: var(--paragraphe-size);
+  color: var(--white);
+  font-family: var(--h2);
+}
+.agilit {
+  border-radius: var(--br-xs);
+  background-color: var(--color-blueviolet-300);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xl) var(--padding-xl) var(--padding-3xl)
+    var(--padding-lgi);
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+  min-width: 220px;
+  max-width: 100%;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--white);
+  width: 100%;
+  height: 100%;
+}
+.div {
+  position: absolute;
+  top: 12px;
+  left: 11px;
+  font-weight: 500;
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  z-index: 1;
+}
+.ellipseParent {
+  height: 38px;
+  width: 38px;
+  position: relative;
+}
+.crativit1 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.nousSommesCratifs {
+  margin: 0;
+}
+.nousSommesCratifsContainer {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.nousSommesCratifsPourVousWrapper {
+  align-self: stretch;
+  height: 51px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--black);
+  font-family: var(--paragraphe);
+}
+.brandconcepttext,
+.crativit,
+.nousSommesCratifsPourVousWrapper,
+.text1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.text1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-4xs);
+  min-width: 159px;
+  font-size: var(--paragraphe-size);
+  color: var(--white);
+  font-family: var(--h2);
+}
+.brandconcepttext,
+.crativit {
+  flex-direction: row;
+  max-width: 100%;
+}
+.crativit {
+  flex: 1;
+  border-radius: var(--br-xs);
+  background-color: var(--color-blueviolet-300);
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-3xl) var(--padding-lgi);
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+  min-width: 220px;
+}
+.brandconcepttext {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-34xl);
+}
+.frameNosclients {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--white);
+  width: 100%;
+  height: 100%;
+}
+.pourquoichoisirnotreagence {
+  position: absolute;
+  top: 11px;
+  left: 10px;
+  font-weight: 500;
+  display: inline-block;
+  width: 13px;
+  height: 15px;
+  z-index: 1;
+}
+.frameNosclientsParent {
+  align-self: stretch;
+  height: 38px;
+  position: relative;
+}
+.contact {
+  width: 38px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+.nousAvonsUn,
+.rapportQualitprix1 {
+  align-self: stretch;
+  position: relative;
+}
+.rapportQualitprix1 {
+  font-weight: 500;
+}
+.nousAvonsUn {
+  font-size: var(--font-size-smi);
+  font-family: var(--paragraphe);
+  color: var(--black);
+}
+.text2 {
+  height: 90px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-4xs);
+  min-width: 159px;
+  font-size: var(--paragraphe-size);
+  color: var(--white);
+  font-family: var(--h2);
+}
+.portfolio,
+.rapportQualitprix {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.rapportQualitprix {
+  width: 339px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-blueviolet-300);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) var(--padding-lgi) var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+}
+.portfolio {
+  width: 381px;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.brandconcepttextParent,
+.gopackframe {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.brandconcepttextParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xl);
+  min-width: 475px;
+  font-size: var(--font-size-smi);
+  color: var(--black);
+  font-family: var(--paragraphe);
+}
+.gopackframe {
+  width: 1323px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--h2-size);
+  color: var(--violet-2);
+  font-family: var(--h2);
+}
+@media screen and (max-width: 1050px) {
+  .extrapackframe {
+    flex: 1;
+  }
+  .gopackframe {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .extrapackframe {
+    min-width: 100%;
+  }
+  .brandconcepttext {
+    flex-wrap: wrap;
+    gap: var(--gap-7xl);
+  }
+  .brandconcepttextParent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .agilit,
+  .crativit,
+  .rapportQualitprix {
+    flex-wrap: wrap;
+  }
+}

@@ -50,7 +50,7 @@
   justify-content: center;
   padding: var(--padding-base);
 }
-.footerIcon {
+.rectangleShapeIcon {
   align-self: stretch;
   width: 138px;
   position: relative;
@@ -135,7 +135,7 @@
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
   align-items: flex-start;
   padding: var(--padding-5xs) var(--padding-xl);
-  gap: var(--gap-3xs);
+  gap: var(--gap-4xs);
   top: 0;
   z-index: 99;
   position: sticky;

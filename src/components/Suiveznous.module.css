@@ -22,7 +22,7 @@
   max-width: 100%;
 }
 .hafa {
-  color: var(--color-darkorchid);
+  color: var(--violet-1);
 }
 .aaslmaJeSuisContainer {
   margin: 0;
@@ -63,7 +63,7 @@
   width: 365px;
   flex-direction: column;
   justify-content: flex-start;
-  color: var(--color-black);
+  color: var(--black);
 }
 .deBrand,
 .lesBrandistas {
@@ -116,7 +116,7 @@
 }
 .laBrandistaDe {
   font-size: var(--paragraphe-size);
-  color: var(--color-black);
+  color: var(--black);
 }
 .amalLaBrandistaContainer {
   height: 82px;
@@ -168,7 +168,7 @@
   max-width: 100%;
   text-align: left;
   font-size: var(--paragraphe-size);
-  color: var(--color-darkorchid);
+  color: var(--violet-1);
   font-family: var(--paragraphe);
 }
 @media screen and (max-width: 1325px) {

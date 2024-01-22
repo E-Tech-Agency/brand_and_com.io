@@ -79,7 +79,7 @@
   display: none;
 }
 .brandAndCom {
-  color: var(--color-darkorchid);
+  color: var(--violet-1);
 }
 .maisOnAContainer {
   margin: 0;
@@ -124,7 +124,7 @@
   gap: var(--gap-xl);
   text-align: left;
   font-size: var(--paragraphe-size);
-  color: var(--color-black);
+  color: var(--black);
   font-family: var(--paragraphe);
 }
 @media screen and (max-width: 800px) {
